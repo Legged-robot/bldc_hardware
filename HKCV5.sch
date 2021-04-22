@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13121,8 +13121,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="200"/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="G"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="200"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value=".001"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value=".001"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value="1m"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value="1m"/>
 <part name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="10 uF 50v"/>
 <part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="10 uF 50v"/>
 <part name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="10 uF 50v"/>
@@ -13154,20 +13154,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="10 uF 50v"/>
 <part name="L1" library="inductor-bourns" deviceset="SDR0302" device="" value="22uH"/>
-<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="22 uF 10v"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="500 mA 60v"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="54.9k 1%"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k 1%"/>
 <part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value=".1 uF 50v"/>
 <part name="U2" library="VaskoCustom" deviceset="MCP2542FD-H/SN" device="" value="MCP2542FD-H/SN"/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value=".1 uF 10v"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value=".1 uF 25v"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value=".1 uF 10v"/>
 <part name="X2" library="HKCV4" deviceset="SM07B-SRSS-TB" device="" value="SM07B-SRSS-TB"/>
 <part name="U6" library="HKCV4" deviceset="MA700GQ-Z" device="" value="MA700GQ-Z "/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value=".1 uF 10v"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value="1 uF 10v"/>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value="1 uF 25v"/>
 <part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="22 uF 10v"/>
 <part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="22 uF 10v"/>
 <part name="U5" library="HKCV4" deviceset="LDFM33PUR" device="" value="LDFM33PUR"/>
@@ -13223,6 +13222,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="X3" library="VaskoCustom" deviceset="FIT0586" device="" value="FIT0586"/>
+<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22 uF 25V"/>
 </parts>
 <sheets>
 <sheet>
@@ -13424,10 +13424,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="L1" gate="G$1" x="261.62" y="58.42" smashed="yes">
 <attribute name="NAME" x="257.81" y="62.23" size="1.778" layer="95"/>
 <attribute name="VALUE" x="257.81" y="55.88" size="1.778" layer="96"/>
-</instance>
-<instance part="C34" gate="G$1" x="279.4" y="48.26" smashed="yes">
-<attribute name="NAME" x="280.416" y="48.895" size="1.778" layer="95"/>
-<attribute name="VALUE" x="280.416" y="44.069" size="1.778" layer="96"/>
 </instance>
 <instance part="P+5" gate="1" x="279.4" y="73.66" smashed="yes">
 <attribute name="VALUE" x="276.86" y="68.58" size="1.778" layer="96" rot="R90"/>
@@ -13675,6 +13671,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X3" gate="G$1" x="116.84" y="-43.18" smashed="yes">
 <attribute name="NAME" x="111.76" y="-33.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="111.76" y="-53.34" size="1.778" layer="96"/>
+</instance>
+<instance part="C34" gate="G$1" x="279.4" y="48.26" smashed="yes">
+<attribute name="NAME" x="280.416" y="48.895" size="1.778" layer="95"/>
+<attribute name="VALUE" x="280.416" y="44.069" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14013,13 +14013,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C34" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="43.18" x2="279.4" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="35.56" x2="279.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="35.56" x2="279.4" y2="35.56" width="0.1524" layer="91"/>
 <junction x="279.4" y="35.56"/>
 <pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="C34" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="15.24" x2="231.14" y2="12.7" width="0.1524" layer="91"/>
@@ -14215,8 +14215,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="190.5" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="106.68" y1="-45.72" x2="93.98" y2="-45.72" width="0.1524" layer="91"/>
-<label x="88.9" y="-45.72" size="1.778" layer="95"/>
+<wire x1="106.68" y1="-45.72" x2="96.52" y2="-45.72" width="0.1524" layer="91"/>
+<label x="91.44" y="-45.72" size="1.778" layer="95"/>
 <pinref part="X3" gate="G$1" pin="+"/>
 </segment>
 <segment>
@@ -14691,7 +14691,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="279.4" y1="71.12" x2="279.4" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C34" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="58.42" x2="279.4" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="58.42" x2="269.24" y2="58.42" width="0.1524" layer="91"/>
@@ -14699,6 +14698,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="269.24" y="58.42"/>
 <wire x1="269.24" y1="58.42" x2="279.4" y2="58.42" width="0.1524" layer="91"/>
 <junction x="279.4" y="58.42"/>
+<pinref part="C34" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="VI"/>
